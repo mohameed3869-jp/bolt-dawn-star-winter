@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #071611;
+  --color-surface: #10261e;
+  --color-surface-2: #173228;
+  --color-fg: #f4ede0;
+  --color-muted: #b7c4b4;
+  --color-primary: #c6a15b;
+  --color-primary-ink: #1a1408;
+  --color-border: #2a463a;
+  --color-good: #7dba8a;
+  --font-sans: "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --font-quran: "Amiri", "IBM Plex Sans Arabic", serif;
+  --radius: 1.1rem;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  html,
+  body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+  }
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+}

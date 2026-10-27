@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "حميد",
+      "hasCanvas": false,
+      "bodyTextLen": 429,
+      "bodyTextHash": "ef58c291476661131f1a2e7260d3697fd4a7d0e459b1406959cccae56553f45d",
+      "bodyTextPrefix": "بِسْمِ اللَّهِ حميد ختمة، صلاة، أذكار، أدعية، زكاة الثلاثاء، ١٧ ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "حميد",
+      "hasCanvas": false,
+      "bodyTextLen": 429,
+      "bodyTextHash": "1701a00aaf92348aa7f20eb09db98a66c44f54c129533fcc88c70b1b3e1e247a",
+      "bodyTextPrefix": "بِسْمِ اللَّهِ حميد ختمة، صلاة، أذكار، أدعية، زكاة الثلاثاء، ١٧ ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
